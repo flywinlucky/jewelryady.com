@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the latest trends in fashion for 
+    women and men at SA FashionStyle. Shop our wide selection of clothes, bags,
+    jewelry, and more. Elevate your style with our curated collections.">
+    <meta name="keywords"
+        content="clothes, women, men, fashion, bags, jewelry, SA FashionStyle, latest trends, stylish clothing, accessories">
+    <meta name="author" content="Jewelry Ady">
+    <link rel="icon" href="images/logowhite.jpg" type="image/x-icon">
+    <!-- css -->
+
+    <link rel="stylesheet" href="Style/cartPage.css">
+    <link rel="stylesheet" href="Style/main.css">
+    <link rel="stylesheet" href="Style/chatBot.css">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <!-- icon -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Jewelryady</title>
+</head>
+
+<body>
+    <header class="container" id="header">
+        <div class="header_top">
+            <img src="images/logo_block.png" alt="page logo" id="logo" onclick="window.location.href='index.html'">
+
+            <nav id="navbar">
+                <menu>
+                    <ul class="nav-buttons">
+                        <li><a href="index.html">Acasa</a></li>
+                        <li><a href="products.html">Produse</a></li>
+                        <li><a href="reviews.html">Recenzii</a></li>
+                    </ul>
+                </menu>
+            </nav>
+
+            <div class="header_actions">
+                <a href="https://t.me/jewelryady">
+                    <ion-icon name="call-outline"></ion-icon>
+                </a>
+                <a href="#" class="icon-cart">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <span id="cart-counter">0</span>
+                </a>
+            </div>
+        </div>
+
+    </header>
+    <main class="cart_page">
+        <div class="container">
+
+            <div class="content">
+                <div class="left_side_cart">
+                    <div class="cart_title">
+                        <h2>Produsele Mele <span id="cart_counts"></span></h2>
+                    </div>
+                    <div class="cart_products">
+                        <!-- add cart products in js -->
+                    </div>
+                </div>
+                <div class="right_side_cart">
+                    <div class="Promotional_code">
+                        <div class="text-message-center">
+                            <h1>Livrare</h1>
+                            <h2>Detalii de expediere prin posta</h2>
+                        </div>
+
+                        <div class="Shiping_Info">
+                            <input type="text" placeholder="Nume">
+                            <input type="text" placeholder="Locatia">
+                            <input type="text" placeholder="Telefon">
+                            <input type="text" placeholder="Telegram">
+                            <input type="text" placeholder="Codul Postal">
+                        </div>
+                    </div>
+                    <div class="summary">
+                        <div class="text-message-center">
+                            <h2>Rezumatul comenzii</h2>
+                        </div>
+
+                        <div class="summary_price">
+                            <div>
+                                <h4>Subtotal</h4>
+                                <span id="Subtotal"></span>
+                            </div>
+                            <div class="Delivery">
+                                <h4>Livrare</h4>
+                                <span id="Delivery">MDL 0</span>
+                            </div>
+                            <div>
+                                <h4>Comanda totală</h4>
+                                <span id="total_order"></span>
+                            </div>
+                        </div>
+                        <button class="checkout" onclick="checkOut();">PLASEAZA COMANDA</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Cart Overlay -->
+    <div class="cart-overlay"></div>
+
+    <!-- Cart Section -->
+    <div class="cart-section">
+        <div class="cart-header">
+            <h2>Coș de cumpărături</h2>
+            <div class="closeCart" onclick="closeCart();">
+                <ion-icon name="close-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="cart_products">
+            <!-- add cart products in js -->
+        </div>
+        <div class="cart_total">
+            <h3>Total:</h3>
+            <span id="total_price"></span>
+        </div>
+        <div class="btn_control">
+            <button class="viewCart" onclick="viewCart();">Vezi coșul</button>
+            <button class="checkout" onclick="viewCart();">Cumpără</button>
+        </div>
+    </div>
+
+    <footer class="footer black-footer">
+        <div class="footer-top">
+            <div class="footer-list">
+
+                <div class="list">
+                    <h4>INFORMATII</h4>
+                    <ul>
+                        <li><a href="desprenoi.html">Despre noi</a></li>
+                        <li><a href="contact.html">Contacte</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <h4>RELATII CLIENTI</h4>
+                    <ul>
+                        <li><a href="termenisiconditii.html">Termeni si conditii</a></li>
+                        <li><a href="politicadeconfidentialitate.html">Politica de confidentialitate</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+
+            <div class="header_social">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="https://wa.me/201007738790" target="_blank">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+            </div>
+
+            <p class="footer-company-name">
+                © 2024 Toate drepturile rezervate.
+            </p>
+        </div>
+    </footer>
+    <button id="scrollBtn"><ion-icon name="arrow-up-outline" id="btn-up"></ion-icon></button>
+
+    <!-- Chat Bot -->
+    <div class="overlay" id="overlay"></div>
+    <button class="chat-button" id="chatButton" onclick="toggleChat()">
+        <img id="chatIcon" src="images/Chat Bot/Chat On.png" alt="Chat Icon" style="width: 100%; height: auto;">
+    </button>
+
+    <div class="chat-container" id="chatContainer">
+        <div class="chat-header">
+            AI Consultant (Online)
+            <button class="close-button" onclick="toggleChat()">×</button>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <div class="chat-message message-bot">
+                👋 Bună ziua! Cum vă putem ajuta?
+            </div>
+        </div>
+        <div class="preset-buttons">
+            <button class="preset-button" onclick="sendPresetMessage('În câte zile ajunge livrarea?')">În câte zile
+                ajunge livrarea?</button>
+            <button class="preset-button"
+                onclick="sendPresetMessage('Care sunt opțiunile de livrare disponibile?')">Care sunt opțiunile de
+                livrare disponibile?</button>
+            <button class="preset-button" onclick="sendPresetMessage('Cum pot să urmăresc statusul comenzii mele?')">Cum
+                pot să urmăresc statusul comenzii mele?</button>
+            <button class="preset-button"
+                onclick="sendPresetMessage('Achitarea se efectuează la primire sau cu cardul?')">Achitarea se efectuează
+                la primire sau cu cardul?</button>
+        </div>
+    </div>
+
+    <script src="JavaScript/main.js"></script>
+    <script src="JavaScript/cart.js"></script>
+    <script src="JavaScript/chatBotCore.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the latest trends in fashion for women and men at SA FashionStyle. Shop our wide selection of clothes, bags, jewelry, and more. Elevate your style with our curated collections.">
+    <meta name="keywords" content="clothes, women, men, fashion, bags, jewelry, SA FashionStyle, latest trends, stylish clothing, accessories">
+    <meta name="author" content="Jewelry Ady">
+    <link rel="icon" href="images/logowhite.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="Style/main.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Jewelryady</title>
+
+    <style>
+        .text-message-center {
+            position: relative;
+            width: 100%; /* Adjust width as needed */
+            height: 400px; /* Set the height according to the image */
+            overflow: hidden; /* Hide overflow to only show one card */
+            box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15); /* Shadow mai accentuat la hover */
+        }
+
+        .card-container {
+            position: absolute;
+            width: 100%; /* Ensure it covers the full width */
+            height: 100%; /* Match the height */
+            /* Removed transition for instant change */
+            
+        }
+
+        .card {
+            width: 100%; /* Full width of the container */
+            height: 100%; /* Full height of the container */
+            margin: 0; /* No margin to use the full space */
+            border-radius: 10px;
+ 
+            overflow: hidden;
+            background-color: white;
+            position: absolute; /* Stack cards on top of each other */
+            top: 50%; /* Align at the center */
+            left: 50%; /* Center align */
+            transform: translate(-50%, -50%); /* Centering effect */
+            display: none; /* Initially hide all cards */
+            
+        }
+
+        .card img.profile-image {
+            max-width: 100%; /* Make the image responsive */
+            max-height: 100%; /* Ensure image doesn't overflow */
+            object-fit: contain; /* Contain the image within the card */
+            object-position: center; /* Center the image within the card */
+            
+        }
+
+        .card.active {
+            display: block; /* Show the active card */
+        }
+
+        .card h2, .card p {
+            margin: 5px;
+            text-align: center; /* Center text */
+        }
+
+        .card-actions {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        .card-actions button {
+            padding: 5px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15); /* Shadow mai accentuat la hover */
+            cursor: pointer;
+        }
+
+        .card-actions .like {
+            background-color: green;
+            color: white;
+        }
+
+        .card-actions .dislike {
+            background-color: red;
+            color: white;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header class="container" id="header">
+        <div class="header_top">
+            <img src="images/logo_block.png" alt="page logo" id="logo" onclick="window.location.href='index.html'">
+            <nav>
+                <menu>
+                    <ul class="nav-buttons">
+                        <li><a href="index.html">Acasa</a></li>
+                        <li><a href="products.html">Produse</a></li>
+                        <li><a href="reviews.html">Recenzii</a></li>
+                    </ul>
+                </menu>
+            </nav>
+            <div class="header_actions">
+                <a href="https://t.me/jewelryady">
+                    <ion-icon name="call-outline"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section id="login">
+        <div class="container">
+            <h1 class="section-header"> </h1>
+            <h1 class="section-header">Recenzii</h1>
+            <div class="text-message-center">
+                <div class="card-container">
+                 
+                    <div class="card active">
+                        <img src="images/reviews/rew_1.jpg" alt="Recenzie 1" class="profile-image">
+                    </div>
+
+                    <div class="card active">
+                        <img src="images/reviews/rew_4.jpg" alt="Recenzie 2" class="profile-image">
+                    </div>
+                    
+                    <div class="card active">
+                        <img src="images/reviews/rew_6.jpg" alt="Recenzie 3" class="profile-image">
+                    </div>
+                    
+                     <div class="card active">
+                        <img src="images/reviews/rew_8.jpg" alt="Recenzie 4" class="profile-image">
+                    </div>
+
+                     <div class="card active">
+                        <img src="images/reviews/recenz2.jpg" alt="Recenzie 5" class="profile-image">
+                    </div>
+
+                    <div class="card active">
+                        <img src="images/reviews/recenz1.jpg" alt="Recenzie 6" class="profile-image">
+                    </div>
+                  
+                    <div class="card">
+                        <img src="images/reviews/rew_2.jpg" alt="Recenzie 7" class="profile-image">
+                    </div>
+                    
+                    <!-- Add more cards as needed -->
+                </div>
+            </div>
+            <div id="form">
+                <div class="submit">
+                    <div class="card-actions">
+                        <button class="like">Back</button>
+                        <button class="dislike">Next</button>
+                    </div>
+                    <a href="index.html" id="signup">Întoarce-te în magazin.</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer black-footer">
+        <div class="footer-top">
+            <div class="footer-list">
+                <div class="list">
+                    <h4>INFORMATII</h4>
+                    <ul>
+                        <li><a href="desprenoi.html">Despre noi</a></li>
+                        <li><a href="contact.html">Contacte</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <h4>RELATII CLIENTI</h4>
+                    <ul>
+                        <li><a href="termenisiconditii.html">Termeni si conditii</a></li>
+                        <li><a href="politicadeconfidentialitate.html">Politica de confidentialitate</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="header_social">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="https://wa.me/201007738790" target="_blank">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+            </div>
+            <p class="footer-company-name">
+                © 2024 Toate drepturile rezervate.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        const cards = document.querySelectorAll('.card');
+        let currentIndex = 0;
+
+        function showCard(index) {
+            cards.forEach((card, i) => {
+                card.classList.remove('active'); // Remove active class from all cards
+                if (i === index) {
+                    card.classList.add('active'); // Add active class to the current card
+                }
+            });
+        }
+
+        document.querySelectorAll('.card-actions button').forEach(button => {
+            button.addEventListener('click', (event) => {
+                const action = event.target.classList.contains('like') ? 'like' : 'dislike';
+
+                // Update the index based on action
+                if (action === 'like' || action === 'dislike') {
+                    if (action === 'dislike') {
+                        currentIndex++; // Move to the next card
+                    } else {
+                        currentIndex--; // Move to the previous card
+                    }
+                    // Loop the index to ensure it stays within bounds
+                    if (currentIndex >= cards.length) {
+                        currentIndex = 0; // Reset to the first card
+                    } else if (currentIndex < 0) {
+                        currentIndex = cards.length - 1; // Go to the last card
+                    }
+                    showCard(currentIndex); // Show the updated card
+                }
+            });
+        });
+
+        // Initial display
+        showCard(currentIndex);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="Style/style.css">
+ 
+</head>
+
+<body>
+    
+    <div>
+        <h2>Admin Panel |</h2>
+        <input type="text" id="categoryName" placeholder="Introduceți numele categoriei">
+        <button type="button" id="addCategoryButton" onclick="addCategory()">Adaugă categorie</button>
+        <h2>Categorii</h2>
+    </div>
+
+    <div id="categoriesContainer">
+        <!-- Categoriile vor fi adăugate aici -->
+    </div>
+    
+    <div id="filterContainer">
+        <label for="filterDropdown">Filtrează după categorie:</label>
+        <select id="filterDropdown">
+            <!-- Options will be populated dynamically -->
+        </select>
+    </div>
+    
+    <div id="searchContainer">
+        <label for="searchInput">Caută produs:</label>
+        <input type="text" id="searchInput" placeholder="Caută după nume, ID sau preț">
+    </div>
+    
+    
+    <h2>Produse</h2>
+    <div id="overlay"></div> <!-- Overlay for dimming background -->
+
+    <div id="itemFormContainer" style="display: none;">
+        <h2>Adaugă Produs în categoria <span id="selectedCategory"></span></h2>
+        <form id="productForm">
+            <label for="id">ID Produs:</label>
+            <span id="id"></span> <!-- Display the ID as text instead of an input field -->
+
+            <label for="name">Nume Produs:</label>
+            <input type="text" id="name" required>
+
+            <label for="price">Preț:</label>
+            <input type="text" id="price" required>
+
+            <label for="images">Imagini (separate prin virgule):</label>
+            <input type="text" id="images" placeholder="images/Inele/ring22.jpg, images/Inele/ring2.jpg" required>
+
+            <label for="description">Descriere:</label>
+            <textarea id="description" required></textarea>
+
+            <div class="optional">
+                <label for="isTrending">Produsul este în trend:</label>
+                <input type="checkbox" id="isTrending">
+
+                <label for="old_price">Preț Veche:</label>
+                <input type="text" id="old_price" placeholder="Ex: 1645.00 MDL">
+
+                <label for="out_Of_stock">Este epuizat:</label>
+                <input type="checkbox" id="out_Of_stock">
+
+                <label for="isNew">Produs Nou:</label>
+                <input type="checkbox" id="isNew">
+
+                <label for="product_sizes">Dimensiuni disponibile (separate prin virgule):</label>
+                <input type="text" id="product_sizes" placeholder="Ex: 15, 16, 17, 18, 19">
+            </div>
+
+            <button type="button" onclick="saveProduct()">Salvează Produs</button>
+            <button type="button" class="cancelButton" onclick="resetProductForm()">Anulează</button>
+        </form>
+    </div>
+
+    <div id="productsContainer">
+        <!-- Produsele vor fi adăugate aici -->
+    </div>
+
+    <script src="scripts/jsmain.js"></script>
+</body>
+
+</html>

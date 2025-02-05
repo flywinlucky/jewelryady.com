@@ -1,0 +1,510 @@
+[
+    {
+        "id": "1.1",
+        "name": "Inel Pandora cu inim\u0103 ro\u0219ie",
+        "price": "225.00 MDL",
+        "images": [
+            "images/Inele/Inel_1.png",
+            "images/Inele/IMG_1097.jpeg",
+            "images/Inele/IMG_1098.jpeg"
+        ],
+        "category": "Inele",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.",
+        "isNew": true
+    },
+    {
+        "id": "1.2",
+        "name": "Inel cu inim\u0103 dubl\u0103",
+        "price": "750.00 MDL",
+        "images": [
+            "images/Inele/ring22.jpg",
+            "images/Inele/ring2.jpg"
+        ],
+        "category": "Inele",
+        "description": "Inel elegant din argint proba S925 cu un design clasic.Pietrele centrale sunt bine fixate \u00eentr-un montaj cu aspect sofisticat, fiind \u00eenconjurate de mici detalii str\u0103lucitoare care completeaz\u0103 designul."
+    },
+    {
+        "id": "1.3",
+        "name": "Inel Pandora cu inim\u0103 alb\u0103",
+        "price": "315.00 MDL",
+        "images": [
+            "images/Inele/Inel_2.png"
+        ],
+        "category": "Inele",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.",
+        "isNew": true,
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "1.4",
+        "name": "Inel 3",
+        "price": "415.00 MDL",
+        "images": [
+            "images/Inele/Inel_3.png"
+        ],
+        "category": "Inele",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.",
+        "old_price": "660.00 MDL",
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "1.5",
+        "name": "Inel cu Form\u0103 P\u0103trat\u0103 Str\u0103lucitoare",
+        "price": "615.00 MDL",
+        "images": [
+            "images/Inele/Inel_4.png"
+        ],
+        "category": "Inele",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.",
+        "isNew": true,
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "1.6",
+        "name": "Inel cu fundi\u021b\u0103 ro\u0219ie",
+        "price": "699.00 MDL",
+        "images": [
+            "images/Inele/inelbant.jpg"
+        ],
+        "category": "Inele",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.",
+        "isNew": true,
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "1.7",
+        "name": "Inel cu fundi\u021b\u0103 alb\u0103",
+        "price": "699.00 MDL",
+        "images": [
+            "images/Inele/inelbant2.jpg"
+        ],
+        "category": "Inele",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.",
+        "isNew": true,
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "1.8",
+        "name": "Inel rotund cu pietricele",
+        "price": "7625.00 MDL",
+        "images": [
+            "images/Inele/IMG_2420.JPG",
+            "images/Inele/Inel_1.png",
+            "images/Inele/Inel_1.png"
+        ],
+        "category": "Inele",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.",
+        "product_sizes": [
+            "15",
+            "16",
+            "567",
+            "68"
+        ]
+    },
+    {
+        "id": "2.1",
+        "name": "Colier str\u0103lucitor cu inim\u0103 alb\u0103",
+        "price": "445.00 MDL",
+        "images": [
+            "images/Coliere/Colier_1.jpg"
+        ],
+        "category": "Coliere",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.",
+        "old_price": "635.00 MDL",
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "2.2",
+        "name": "Colier str\u0103lucitor cu inim\u0103 ro\u0219ie",
+        "price": "745.00 MDL",
+        "images": [
+            "images/Coliere/Colier_2.jpg"
+        ],
+        "category": "Coliere",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi."
+    },
+    {
+        "id": "2.3",
+        "name": "Colier Infinity",
+        "price": "742.00 MDL",
+        "images": [
+            "images/Coliere/Colier222.jpg"
+        ],
+        "category": "Coliere",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi."
+    },
+    {
+        "id": "3.1",
+        "name": "Set Cercei+Colier Elegan\u021b\u0103 Clasic\u0103",
+        "price": "425.00 MDL",
+        "images": [
+            "images/Bratari/Bratara_2.png"
+        ],
+        "category": "Bratari",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.",
+        "old_price": "1645.00 MDL",
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "3.2",
+        "name": "Br\u0103\u021bar\u0103 Tennis",
+        "price": "625.00 MDL",
+        "images": [
+            "images/Bratari/Bratara_3.png"
+        ],
+        "category": "Bratari",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.\"",
+        "isTrending": true,
+        "isNew": true,
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "3.3",
+        "name": "Br\u0103\u021bar\u0103 pentu Baieti 2",
+        "price": "499.00 MDL",
+        "images": [
+            "images/Bratari/boy.2.jpg"
+        ],
+        "category": "Bratari",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.",
+        "isTrending": true,
+        "isNew": true,
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "3.4",
+        "name": "Br\u0103\u021bar\u0103 pentu Baieti 3",
+        "price": "259.00 MDL",
+        "images": [
+            "images/Bratari/brataraboyjpg.jpg",
+            "images/Bratari/brataraboy2.jpg"
+        ],
+        "category": "Bratari",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.\"",
+        "isTrending": true,
+        "isNew": true,
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "3.5",
+        "name": "Br\u0103\u021bar\u0103 Tennis",
+        "price": "325.00 MDL",
+        "images": [
+            "images/Bratari/Bratara_4.png"
+        ],
+        "category": "Bratari",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.",
+        "isTrending": true,
+        "isNew": true,
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "3.6",
+        "name": "Br\u0103\u021bar\u0103 Tennis",
+        "price": "625.00 MDL",
+        "images": [
+            "images/Bratari/Bratara_3.png"
+        ],
+        "category": "Bratari",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.",
+        "isTrending": true,
+        "isNew": true,
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "3.7",
+        "name": "Br\u0103\u021bar\u0103 pentru B\u0103ie\u021bi",
+        "price": "280.00 MDL",
+        "images": [
+            "images/Bratari/boy.jpg"
+        ],
+        "category": "Bratari",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.",
+        "isTrending": true,
+        "isNew": true,
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "3.8",
+        "name": "Br\u0103\u021bar\u0103 Pandora cu inim\u0103 ro\u0219ie",
+        "price": "1200.00 MDL",
+        "images": [
+            "images/Bratari/Bratara1.jpg",
+            "images/Bratari/bratara2.jpg",
+            "images/Bratari/br3.jpg"
+        ],
+        "category": "Bratari",
+        "description": "Aceasta este o br\u0103\u021bar\u0103 elegant\u0103, cu un design rafinat \u0219i modern. Br\u0103\u021bara are un pandantiv central \u00een form\u0103 de inim\u0103, cu o piatr\u0103 de culoare ro\u0219ie intens\u0103, care adaug\u0103 un contrast vibrant \u0219i un element romantic. Designul s\u0103u o face potrivit\u0103 pentru ocazii speciale sau pentru a completa o \u021binut\u0103 elegant\u0103.",
+        "isTrending": true,
+        "isNew": true,
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18"
+        ]
+    },
+    {
+        "id": "3.9",
+        "name": "Br\u0103\u021bar\u0103 Pandora cu inim\u0103 alb\u0103",
+        "price": "1200.00 MDL",
+        "images": [
+            "images/Bratari/br22.jpg",
+            "images/Bratari/br23.jpg"
+        ],
+        "category": "Bratari",
+        "description": "",
+        "isTrending": true,
+        "isNew": true,
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18"
+        ]
+    },
+    {
+        "id": "3.10",
+        "name": "Br\u0103\u021bar\u0103 Cartier",
+        "price": "699.00 MDL",
+        "images": [
+            "images/Bratari/IMG_2449.JPG"
+        ],
+        "category": "Bratari",
+        "description": "Bratara cartier excelent",
+        "old_price": "1200.00 MDL",
+        "product_sizes": [
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "4.1",
+        "name": "Cercei \u00een Form\u0103 de Inim\u0103",
+        "price": "645.00 MDL",
+        "images": [
+            "images/Cercei/cercei_1.jpg"
+        ],
+        "category": "Cercei",
+        "description": "These Retro Sunglasses offer a vintage-inspired look with modern protection. Perfect for adding a stylish edge to any outfit.",
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "4.2",
+        "name": "Cercei cu \u0218urub cu Inimior\u0103 str\u0103lucitoare infinit",
+        "price": "745.00 MDL",
+        "images": [
+            "images/Cercei/cercei_2.png"
+        ],
+        "category": "Cercei",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.",
+        "isNew": true,
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "4.3",
+        "name": "Cercei cu \u0218urub \u00eencercui\u021bi Familia pentru totdeauna",
+        "price": "625.00 MDL",
+        "images": [
+            "images/Cercei/cercei_3.png"
+        ],
+        "category": "Cercei",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.",
+        "isTrending": true,
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "4.4",
+        "name": "Cercei cu Form\u0103 Inim\u0103 roz",
+        "price": "425.00 MDL",
+        "images": [
+            "images/Cercei/cercei_4.png"
+        ],
+        "category": "Cercei",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.",
+        "isTrending": true,
+        "old_price": "1245.00 MDL",
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "4.5",
+        "name": "Cercei Rotunzi \u00een form\u0103 de Inim\u0103",
+        "price": "225.00 MDL",
+        "images": [
+            "images/Cercei/cercei_5.png"
+        ],
+        "category": "Cercei",
+        "description": "Inel elegant din argint S925, cu un design clasic \u0219i rafinat, potrivit pentru orice ocazie. Este ideal at\u00e2t pentru a fi purtat de oricine, c\u00e2t \u0219i pentru a fi oferit cadou persoanei dragi.",
+        "isTrending": true,
+        "isNew": true,
+        "product_sizes": [
+            "15",
+            "16",
+            "17",
+            "18",
+            "19"
+        ]
+    },
+    {
+        "id": "5.1",
+        "name": "Cutie Pandora",
+        "price": "230.00 MDL",
+        "images": [
+            "images/Cutii/cutie_1.png"
+        ],
+        "category": "Cutii",
+        "description": "Descrierea cutiei",
+        "isTrending": true,
+        "product_sizes": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "id": "5.2",
+        "name": "Cutie Pandora 2",
+        "price": "250.00 MDL",
+        "images": [
+            "images/Cutii/cutie22.jpg",
+            "images/Cutii/cutie23.jpg"
+        ],
+        "category": "Cutii",
+        "description": "Descrierea cutiei",
+        "isTrending": true,
+        "product_sizes": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "id": "5.3",
+        "name": "Cutie Pandora roz",
+        "price": "279.00 MDL",
+        "images": [
+            "images/Cutii/cutie24.jpg"
+        ],
+        "category": "Cutii",
+        "description": "Descrierea cutiei",
+        "isTrending": true,
+        "product_sizes": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "id": "5.4",
+        "name": "JewelryAdy",
+        "price": "0.00 MDL",
+        "images": [
+            "images/Cutii/pachet.jpg"
+        ],
+        "category": "Cutii",
+        "description": "Descrierea cutiei",
+        "product_sizes": [
+            "1",
+            "2"
+        ]
+    }
+]
